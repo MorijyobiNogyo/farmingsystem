@@ -13,12 +13,12 @@ class Controller(object, metaclass=abc.ABCMeta):
 		super(Controller, self).__init__()
 		self.arg = arg
 
-	@abc.absabstructmethod
+	@abc.abstructmethod
 	def powerOn():
 		"""機器をオンにするメソッド。"""
 		pass
 
-	@abc.absabstructmethod
+	@abc.abstructmethod
 	def PowerOff():
 		"""機器をオフにするメソッド。"""
 		pass
